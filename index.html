@@ -1,0 +1,25 @@
+---
+layout: landing
+title: Crowded
+subtitle: A community of geeks; we geek out about everything
+body_class: landing-page
+---
+
+{% for post in paginator.posts %}
+  <div class="col-md-6">
+    <div class="card card-raised card-background" style="background-image: url('/assets/img/examples/office2.jpg')">
+      <div class="card-content">
+        <h6 class="category text-info">{{ post.category }}</h6>
+        <a href="{{ post.url }}">
+          <h3 class="card-title">{{ post.title }}</h3>
+        </a>
+        <p class="card-description">{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
+        <a href="{{ post.url }}" class="btn btn-danger btn-round">
+          <i class="material-icons">format_align_left</i> Read Article
+        </a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+{% include pagination.html %}

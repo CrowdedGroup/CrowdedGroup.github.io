@@ -1,0 +1,25 @@
+---
+layout: default
+comments: true
+---
+<div class="row">
+  <div class="col-md-12">
+    <article>
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-content">
+        {{ content }}
+      </div>
+      <div class="meta">
+        <div class="author">{{ site.author.display_name }}</div>
+        <div class="date">{{ page.date | date: "%m-%d-%Y" }}</div>
+        <div class="tags">
+          <ul class="list-inline">
+          {% for tag in page.tags %}
+            <li><a href="">{{ tag }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
