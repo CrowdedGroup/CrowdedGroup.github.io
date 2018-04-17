@@ -69,6 +69,12 @@ header_class: header-small
               <i class="fa fa-cloud"></i>
             </a>
             {%- endif %}
+
+            {%- if member.social.youtube -%}
+            <a href="http://www.youtube.com/user/{{ member.social.youtube }}" class="btn btn-just-icon btn-link btn-youtube" target="_blank">
+              <i class="fa fa-youtube"></i>
+            </a>
+            {%- endif %}
           </div>
         </div>
       </div>
