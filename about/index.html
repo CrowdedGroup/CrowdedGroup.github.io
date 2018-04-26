@@ -31,12 +31,15 @@ header_class: header-small
         <div class="card card-profile card-plain">
           <div class="card-avatar">
             <a href="#{{ member.aka | downcase }}">
-              <img class="img" src="https://s.gravatar.com/avatar/{{ member.gravatar }}?s=400">
+              <img class="img" src="{{ member.avatar }}">
             </a>
           </div>
           <div class="card-body">
             <h4 class="card-title">{{ member.name }}</h4>
-            <h6 class="category text-muted">{{ member.aka }}</h6>
+            <h6 class="category">
+              <span class="text-muted">{{ member.aka }}</span> |
+              <span class="text-success">{{ member.role }}</span>
+            </h6>
             <div class="card-description">{{ member.bio }}</div>
           </div>
           <div class="card-footer justify-content-center">

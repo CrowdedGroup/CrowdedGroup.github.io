@@ -13,7 +13,8 @@ plugins: [jekyll-paginate, jekyll-feed]
 team:
   - name: Joshua Minnie
     aka: TruePico
-    gravatar: 0d9ad0a17b1f1e22d38997ecc8269596
+    role: owner
+    avatar: https://avatars.io/twitter/joshminnie
     bio: I live and breath the web. I love spending time with my family. If I'm not doing either of those, I'm probably sleeping. Owner of <a href="http://nissisolutions.com" target="_blank">Nissi Solutions</a>.
     social:
       twitter: joshminnie
@@ -21,10 +22,24 @@ team:
       instagram: joshminnie
   - name: Josh Pennington
     aka: joshpennington
-    gravatar: ac1c040c634e8690b4d4e2ffb8528d59
+    role: admin
+    avatar: https://pbs.twimg.com/profile_images/989535033596624896/lrL08dmY.jpg
     bio: PHP developer by day, geek at night. I watch too much Doctor Who.
     social:
       twitter: joshpennington
       github: joshpennington
       instagram: joshpennington/
       youtube: spartan8103
+  - name: Corey Moag
+    aka: Pack
+    role: moderator
+    avatar: https://avatars.io/twitter/cmoag322
+    bio: Just your average nerdy goof. Working my way up the IT ladder.
+    social:
+      twitter: cmoag322
+  - name: Jason Minnie
+    aka: Firestarter
+    role: moderator
+    avatar: https://avatars.io/twitter/slick150_2000
+    social:
+      twitter: slick150_2000
