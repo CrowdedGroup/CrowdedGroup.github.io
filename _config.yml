@@ -11,9 +11,9 @@ paginate: 6
 plugins: [jekyll-paginate, jekyll-feed]
 
 team:
-  - name: Joshua Minnie
+  - name: Josh Minnie
     aka: TruePico
-    role: owner
+    role: founder
     avatar: https://avatars.io/twitter/joshminnie
     bio: I live and breath the web. I love spending time with my family. If I'm not doing either of those, I'm probably sleeping. Owner of <a href="http://nissisolutions.com" target="_blank">Nissi Solutions</a>.
     social:
@@ -43,3 +43,9 @@ team:
     avatar: https://avatars.io/twitter/slick150_2000
     social:
       twitter: slick150_2000
+  - name: Keith Sayer
+    aka: Vickriman
+    role: moderator
+    avatar: https://avatars.io/twitter/vickriman
+    social:
+      twitter: vickriman
