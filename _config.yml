@@ -17,7 +17,7 @@ team:
     avatar: https://avatars.io/twitter/joshminnie
     bio: I live and breath the web. I love spending time with my family. If I'm not doing either of those, I'm probably sleeping. Owner of <a href="http://nissisolutions.com" target="_blank">Nissi Solutions</a>.
     social:
-      twitter: joshminnie
+      twitter: TheTruePico
       github: joshminnie
       instagram: joshminnie
   - name: Josh Pennington
@@ -30,6 +30,12 @@ team:
       github: joshpennington
       instagram: joshpennington/
       youtube: spartan8103
+  - name: Keith Sayer
+    aka: Vickriman
+    role: admin
+    avatar: https://avatars.io/twitter/vickriman
+    social:
+      twitter: vickriman
   - name: Corey Moag
     aka: Pack
     role: moderator
@@ -43,9 +49,3 @@ team:
     avatar: https://avatars.io/twitter/slick150_2000
     social:
       twitter: slick150_2000
-  - name: Keith Sayer
-    aka: Vickriman
-    role: moderator
-    avatar: https://avatars.io/twitter/vickriman
-    social:
-      twitter: vickriman
