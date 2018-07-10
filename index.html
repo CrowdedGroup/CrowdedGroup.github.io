@@ -157,6 +157,12 @@ body_class: landing-page
                     <i class="fab fa-youtube"></i>
                   </a>
                   {%- endif %}
+                  
+                  {%- if member.social.xbox -%}
+                  <a href="https://account.xbox.com/en-US/Profile?gamerTag={{ member.social.xbox }}" class="btn btn-just-icon btn-link btn-xbox" target="_blank">
+                   <i class="fab fa-xbox"></i>
+                  </a>
+                  {%- endif %}
                 </div>
               </div>
             </div>
