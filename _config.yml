@@ -8,7 +8,10 @@ permalink: pretty
 plugins: plugins
 paginate: 6
 
-plugins: [jekyll-paginate, jekyll-feed]
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-redirect-from
 
 team:
   - name: Josh Minnie
