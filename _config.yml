@@ -18,7 +18,7 @@ team:
     aka: TruePico
     role: founder
     avatar: https://avatars.io/twitter/TheTruePico
-    bio: I live and breath the web. I love spending time with my family. If I'm not doing either of those, I'm probably sleeping. Owner of <a href="http://nissisolutions.com" target="_blank">Nissi Solutions</a>.
+    bio: I live and breath the web. I love spending time with my family and gaming. If I'm not doing any of those, I'm probably sleeping.
     social:
       twitter: TheTruePico
       github: joshminnie
@@ -42,13 +42,6 @@ team:
     avatar: https://avatars.io/twitter/vickriman
     social:
       twitter: vickriman
-  - name: Corey Moag
-    aka: Pack
-    role: moderator
-    avatar: https://avatars.io/twitter/cmoag322
-    bio: Just your average nerdy goof. Working my way up the IT ladder.
-    social:
-      twitter: cmoag322
   - name: Jason Minnie
     aka: Firestarter
     role: moderator
